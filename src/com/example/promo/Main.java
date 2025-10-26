@@ -14,6 +14,6 @@ public class Main {
         long points = sc.nextLong();
 
         double discount = service.calculateDiscount(age, points);
-        System.out.printf("Discount (v1): %.2f%%%n", discount);
+        System.out.printf("Discount (v2): %.2f%%%n", discount);
     }
 }
